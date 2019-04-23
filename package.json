@@ -6,7 +6,7 @@
     "start": "node index.js",
     "clear": "rm -rf ./node_modules",
     "dev": "nodemon",
-    "test": "mocha --recursive",
+    "test": "nyc mocha --recursive",
     "lint": "eslint --quiet ."
   },
   "repository": {
@@ -23,6 +23,7 @@
     "eslint": "^5.13.0",
     "mocha": "^5.2.0",
     "nodemon": "^1.18.10",
+    "nyc": "^14.0.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
   }
