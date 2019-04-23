@@ -1,0 +1,23 @@
+# IDE
+.idea
+.vscode
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Node
+/node_modules
+/assets/node_modules
+/coverage.html
+
+# Docker
+docker-compose.yml
+Dockerfile
+.dockerignore
